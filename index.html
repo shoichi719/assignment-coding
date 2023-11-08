@@ -3,50 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>coffee</title>
   </head>
   <body>
-    <header>
-
-      <section>
-        <h1>Coffee</h1>
-        <p>subtitle subtitle</p>
-      </section>
-
+    <header class="container">
+      <p class="header-ttl">Coffee</p>
+      <p>subtitle subtitle</p>
+      <nav class="menu">
+        <ul>
+          <li><a href="#about">about</a></li>
+          <li><a href="#beans">beans</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main>
+    <section class="kv">
+      <div>
+        <h1>coffee</h1>
+        <strong>subtitle subtitle</strong>
+      </div>
+    </section>
 
-      <section class="container">
-        <h2>About</h2>
-        <img src="img/ada.jpg" alt="#" />
-        <h3>Ada</h3>
-        <p>text text text text text text text text</p>
-      </section>
+    <section class="about-sec">
+      <div class="container">
+        <h2 class="ttl">about</h2>
+        <div class="content">
+          <img src="img/ada.jpg" alt="ada" />
+          <div class="profile">
+            <h3>ada</h3>
+            <p>text text text text text text text text text text text text</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="beasns-sec">
+      <div class="container">
+        <h2 class="ttl">beans</h2>
+        <ul>
+          <li>
+            <img src="" alt="" />
+            <strong>subtitle</strong>
+            <p>text text text text text text text text text text text text</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-      <section>
-        <h2>Beans</h2>
-        <img src="img/beans.jpg" alt="" />
-        <p>subtitle</p>
-        <p>text text text text text text text text</p>
-      </section>
-
-      <section>
-        <img src="img/beans2.jpg" alt="" />
-        <p>subtitle</p>
-        <p>text text text text text text text text</p>
-      </section>
-
-      <section>
-        <img src="img/beans3.jpg" alt="" />
-        <p>subtitle</p>
-        <p>text text text text text text text text</p>
-      </section>
-
-    </main>
-
-    <footer>&copy; 2023 Coffee</footer>
+    <footer>&copy; Reserved All Rights 2023 Coffee</footer>
   </body>
 </html>
