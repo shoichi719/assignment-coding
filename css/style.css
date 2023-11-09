@@ -63,6 +63,7 @@ header{
   left: 50px;
   transform: translate(-50%, -50%);
   color: #fff;
+  width: 100%;
 }
 .kv div h1{
   font-size: 80px;
@@ -75,3 +76,93 @@ header{
   display: block;
 }
 /* /kv */
+
+/* about */
+.about-sec{
+  margin-bottom: 80px;
+}
+.content{
+display: flex;
+align-items: center;
+gap:  0 80px;
+width: 662px;
+margin: 0 auto;
+}
+.profile h3{
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+/* /about */
+
+/* beans */
+.beans-sec{
+  margin-bottom: 80px;
+}
+.beans-sec ul{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.beans-sec ul li{
+  width: 32%;
+}
+.beans-sec ul li{
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+}
+.btn{
+  width: 300px;
+  height: 60px;
+  border: solid 1px #707070;
+  display: block;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* /beans */
+/* footer */
+footer{
+  background-color: #815633;
+  height: 100px;
+  width: 100%;
+}
+footer small{
+  font-style: 14px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  line-height: 100px;
+}
+/* /footer */
+
+@media screen and (max-width: 750px){
+  /* header */
+  header{
+    height: 70px;
+  }
+  .header-ttl{
+    font-style: 20px;
+  }
+  .menu ul{
+    gap: 0 20px;
+  }
+  .menu a{
+    font-size: 16px;
+  }
+  /* /header */
+  /* kv */
+  .kv{
+    border-image: url(../img/kv-sp.jpg);
+    height: 121vw;
+  }
+  .kv div h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .kv div strong{
+    font-size: 20px;
+  }
+  /* /kv */
+}
